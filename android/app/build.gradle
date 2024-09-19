@@ -42,3 +42,7 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation files('libs/DisplaySDK-2.2.6.jar')
+}
